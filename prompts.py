@@ -6,7 +6,7 @@ def prompts(textsImages, transformation):
     @dataclass
     class ListeIngredient:
         Ingredient: str
-        Quantite : Optional[int] = None
+        Quantite : Optional[float] = None
         Unite : Optional[str] = None
         note: Optional[str] = None
     
@@ -21,7 +21,7 @@ def prompts(textsImages, transformation):
             "Contexte : Extraction de données d'une image contenant des informations de liste de courses pour une recette. \n\n"
             "Instruction de prompt : À partir de l'image jointe contenant une liste d'ingrédients pour une recette, identifiez et extrayez toutes les données possibles (Ingredient, Quantite, Unite,  note). Formatez les résultats sous forme d'une liste d'objets JSON, en respectant la structure suivante pour chaque ingrédient :  \n\n"
             "Veuillez structurer la sortie JSON pour correspondre à la classe suivante : \n\n"
-            "@dataclass class ListeIngredient: Ingredient: str, Quantite : Optional[int] = None, Unite : Optional[str] = None, note: Optional[str] = None \n\n"
+            "@dataclass class ListeIngredient: Ingredient: str, Quantite : Optional[float] = None, Unite : Optional[str] = None, note: Optional[str] = None \n\n"
             "Par exemple, ce texte : - 1 bûche ou un crottin de chèvre frais (environ 150 g), \n\n"
             "je veux qu'il soit transformé comme ça : {'Ingredient': 'bûche ou un crottin de chèvre frais', 'Quantite : 1, 'Unite': '', 'note': 'environ 150 g'} \n\n"
             "ou encore : - 1,5 kg d'aubergines fermes \n\n"

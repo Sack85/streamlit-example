@@ -1,5 +1,6 @@
 import streamlit as st
 import os
+import json
 
 def subirFotos(etap):
     st.header(etap)
@@ -9,12 +10,12 @@ def subirFotos(etap):
 
     return files
 
-def saveTXTfile(etap, combined_text):
-    save_path = f"textExtracted/{etap}.txt"
-    with open(save_path, "w") as text_file:
-        text_file.write(combined_text)
+def saveJSONfile(etap, combined_data):
+    save_path = f"dataExtracted/{etap}.json"
+    with open(save_path, "w") as json_file:
+        json.dump(combined_data, json_file, indent=4)
 
-    st.write(f"Texto combinado extraído para {etap} ha sido guardado en {save_path}")
+    st.write(f"Datos combinados extraídos para {etap} han sido guardados en {save_path}")
 
     return save_path
 

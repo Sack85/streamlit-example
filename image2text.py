@@ -52,8 +52,8 @@ def image2text(etap, files):
 
     for file in files:
         extracted_text = extractTextFromImage(etap, file)
-        combined_text += extracted_text + "\n"
+        combined_text = combined_text.append(extracted_text)
 
-    tF.saveTXTfile(etap, combined_text)
+    tF.saveJSONfile(etap, combined_text)
 
     return
