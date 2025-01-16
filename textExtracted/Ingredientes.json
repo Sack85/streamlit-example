@@ -1,0 +1,30 @@
+```json
+[
+    {"Ingredient": "aubergines", "Quantite": 1.5, "Unite": "kg", "note": null},
+    {"Ingredient": "courgettes", "Quantite": 8, "Unite": null, "note": null},
+    {"Ingredient": "grappes de tomates cerise", "Quantite": 2, "Unite": null, "note": null},
+    {"Ingredient": "branche de céleri", "Quantite": 1, "Unite": null, "note": null},
+    {"Ingredient": "concombre", "Quantite": 1, "Unite": null, "note": null},
+    {"Ingredient": "petites pommes de terre", "Quantite": 1.5, "Unite": "kg", "note": "rattes par exemple"},
+    {"Ingredient": "brocoli", "Quantite": 1, "Unite": null, "note": null},
+    {"Ingredient": "botte de basilic", "Quantite": 1, "Unite": null, "note": "ou 1 pot"},
+    {"Ingredient": "oignons", "Quantite": 3, "Unite": null, "note": null},
+    {"Ingredient": "gousses d'ail", "Quantite": 6, "Unite": null, "note": null},
+    {"Ingredient": "œufs", "Quantite": 6, "Unite": null, "note": null},
+    {"Ingredient": "fromage de chèvre frais type Petit Billy", "Quantite": 1, "Unite": null, "note": "200 g"},
+    {"Ingredient": "sachet de parmesan râpé", "Quantite": 1, "Unite": null, "note": "50 ou 60 g"},
+    {"Ingredient": "paquet de tofu fumé", "Quantite": 1, "Unite": null, "note": "200 g"},
+    {"Ingredient": "pâtes", "Quantite": 400, "Unite": "g", "note": "penne"},
+    {"Ingredient": "riz blanc", "Quantite": 300, "Unite": "g", "note": null},
+    {"Ingredient": "raisins secs", "Quantite": 30, "Unite": "g", "note": null},
+    {"Ingredient": "pignons de pin", "Quantite": 40, "Unite": "g", "note": null},
+    {"Ingredient": "câpres", "Quantite": 2, "Unite": "cuil. à soupe", "note": null},
+    {"Ingredient": "olives vertes", "Quantite": 8, "Unite": null, "note": null},
+    {"Ingredient": "baguette", "Quantite": 1, "Unite": null, "note": null},
+    {"Ingredient": "lentilles corail", "Quantite": 80, "Unite": "g", "note": null},
+    {"Ingredient": "Huile d'olive", "Quantite": null, "Unite": null, "note": null},
+    {"Ingredient": "Vinaigre de vin rouge", "Quantite": null, "Unite": null, "note": null},
+    {"Ingredient": "Chapelure", "Quantite": null, "Unite": null, "note": null},
+    {"Ingredient": "Sel, poivre", "Quantite": null, "Unite": null, "note": null}
+]
+```
