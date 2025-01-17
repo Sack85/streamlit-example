@@ -47,7 +47,8 @@ def extractTextFromImage(etap, file):
 
     extracted_text = response.choices[0].message.content
     return extracted_text
-    
+
+
 
 def image2text(etap, files):
     combined_text = "[]"  # Initialize a variable to store combined text
