@@ -12,8 +12,8 @@ def subirFotos(etap):
 
 def saveJSONfile(etap, combined_data):
     save_path = f"dataExtracted/{etap}.json"
-    with open(save_path, "w") as json_file:
-        json.dump(combined_data, json_file, indent=4)
+    with open(save_path, "w", encoding='utf-8') as json_file:
+        json.dump(combined_data, json_file, ensure_ascii=False, indent=4)
 
     st.write(f"Datos combinados extraídos para {etap} han sido guardados en {save_path}")
 

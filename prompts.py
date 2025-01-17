@@ -13,18 +13,20 @@ def prompts(textsImages, transformation):
     # etaps = ["Menu", "Ingredientes", "Preparacion"]
     transformaciones = { 
         "Menu": (
-            "From the image attached of an invoice extract all the data and format it as a JSON object. Try to include all the fields that you get from the invoice. \n\n"
+            "From the image attached of an invoice extract all the data and format it as a JSON python object. Try to include all the fields that you get from the invoice. \n\n"
             "El texto dice lo que se come durante 5 dias de la semana (lunes, martes, miercoles, jueves, viernes) y la preparacion adicional que hay que hacer.  \n\n"
         ),
 
         "Ingredientes": (
             "Contexte : Extraction de données d'une image contenant des informations de liste de courses pour une recette. \n\n"
-            "Instruction de prompt : À partir de l'image jointe contenant une liste d'ingrédients pour une recette, identifiez et extrayez toutes les données possibles (Ingredient, Quantite, Unite,  note). Formatez les résultats sous forme d'une liste d'objets JSON, en respectant la structure suivante pour chaque ingrédient :  \n\n"
-            "Veuillez structurer la sortie JSON pour correspondre à la classe suivante : \n\n"
+            "Instruction de prompt : À partir de l'image jointe contenant une liste d'ingrédients pour une recette, identifiez et extrayez toutes les données possibles (Ingredient, Quantite, Unite,  note). Formatez les résultats sous forme d'une liste d'objets JSON python, en respectant la structure suivante pour chaque ingrédient :  \n\n"
+            "Veuillez structurer la sortie JSON python pour correspondre à la classe suivante : \n\n"
             "@dataclass class ListeIngredient: Ingredient: str, Quantite : Optional[float] = None, Unite : Optional[str] = None, note: Optional[str] = None \n\n"
             "Par exemple, ce texte : - 1 bûche ou un crottin de chèvre frais (environ 150 g), \n\n"
             "je veux qu'il soit transformé comme ça : {'Ingredient': 'bûche ou un crottin de chèvre frais', 'Quantite : 1, 'Unite': '', 'note': 'environ 150 g'} \n\n"
             "ou encore : - 1,5 kg d'aubergines fermes \n\n"
+            "Je veux avoir seule et uniquement le JSON python dans la key 'INGREDIENTS' \n\n"
+            "et pas de phrase du type 'Voici la liste d'ingrédients extraite et formatée en JSON Python :'"
         ),
 
         "Preparacion": (

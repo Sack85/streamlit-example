@@ -1,1 +1,134 @@
-""
+[
+    {
+        "Ingredient": "aubergines",
+        "Quantite": 1.5,
+        "Unite": "kg",
+        "note": ""
+    },
+    {
+        "Ingredient": "courgettes",
+        "Quantite": 8,
+        "Unite": "",
+        "note": ""
+    },
+    {
+        "Ingredient": "tomates cerise",
+        "Quantite": 2,
+        "Unite": "grappes",
+        "note": ""
+    },
+    {
+        "Ingredient": "céleri",
+        "Quantite": 1,
+        "Unite": "branche",
+        "note": ""
+    },
+    {
+        "Ingredient": "concombre",
+        "Quantite": 1,
+        "Unite": "",
+        "note": ""
+    },
+    {
+        "Ingredient": "petites pommes de terre",
+        "Quantite": 1.5,
+        "Unite": "kg",
+        "note": "(rattes par exemple)"
+    },
+    {
+        "Ingredient": "brocoli",
+        "Quantite": 1,
+        "Unite": "",
+        "note": ""
+    },
+    {
+        "Ingredient": "basilic",
+        "Quantite": 1,
+        "Unite": "pot",
+        "note": "(ou 1 pot)"
+    },
+    {
+        "Ingredient": "oignons",
+        "Quantite": 3,
+        "Unite": "",
+        "note": ""
+    },
+    {
+        "Ingredient": "gousses d'ail",
+        "Quantite": 6,
+        "Unite": "",
+        "note": ""
+    },
+    {
+        "Ingredient": "oeufs",
+        "Quantite": 6,
+        "Unite": "",
+        "note": ""
+    },
+    {
+        "Ingredient": "fromage de chèvre frais",
+        "Quantite": 1,
+        "Unite": "pièce",
+        "note": "type Petit Billy (200 g)"
+    },
+    {
+        "Ingredient": "parmesan râpé",
+        "Quantite": 1,
+        "Unite": "sachet",
+        "note": "(50 ou 60 g)"
+    },
+    {
+        "Ingredient": "tofu fumé",
+        "Quantite": 1,
+        "Unite": "paquet",
+        "note": "(200 g)"
+    },
+    {
+        "Ingredient": "pâtes",
+        "Quantite": 400,
+        "Unite": "g",
+        "note": "(penne)"
+    },
+    {
+        "Ingredient": "riz blanc",
+        "Quantite": 300,
+        "Unite": "g",
+        "note": ""
+    },
+    {
+        "Ingredient": "raisins secs",
+        "Quantite": 30,
+        "Unite": "g",
+        "note": ""
+    },
+    {
+        "Ingredient": "pignons de pin",
+        "Quantite": 40,
+        "Unite": "g",
+        "note": ""
+    },
+    {
+        "Ingredient": "câpres",
+        "Quantite": 2,
+        "Unite": "cuil. à soupe",
+        "note": ""
+    },
+    {
+        "Ingredient": "olives vertes",
+        "Quantite": 8,
+        "Unite": "",
+        "note": ""
+    },
+    {
+        "Ingredient": "baguette",
+        "Quantite": 1,
+        "Unite": "",
+        "note": ""
+    },
+    {
+        "Ingredient": "lentilles coral",
+        "Quantite": 80,
+        "Unite": "g",
+        "note": ""
+    }
+]
